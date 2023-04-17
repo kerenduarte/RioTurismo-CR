@@ -1,0 +1,36 @@
+.bgimage {
+   background-image: url('../images/panoramica1.jpg');
+   background-size: cover;
+   background-position: center;
+   height: 350px;
+}
+
+.tooltip-inner {
+   max-width: 250px;
+}
+
+.media img {
+   width: 180px;
+   margin-bottom: 16px;
+   margin-right: 16px;
+   border-radius: 6%;
+}
+
+@media (max-width: 480px) {
+
+   .media img {
+      width: 90px;
+      margin-bottom: 6px;
+      border-radius: 50%;
+   }
+   
+   .media-body h5 {
+      padding-top: 18px;
+      font-size: 15px;
+   }
+   
+   .texto-media-body {
+      display: none;
+   }
+
+}
